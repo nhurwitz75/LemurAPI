@@ -1,0 +1,351 @@
+[
+  {
+    "id": 1,
+    "common_name": "Ring-tailed Lemur",
+    "scientific_name": "Lemur catta",
+    "conservation_status": "Endangered",
+    "palette": {
+      "mood": "Striking",
+      "colors": [
+        { "hex": "#1C1C1C", "name": "Black" },
+        { "hex": "#F2EFEA", "name": "Creamy White"},
+        { "hex": "#888080", "name": "Reddish Gray"},
+        { "hex": "#aa8e46", "name": "Orange Brown"} 
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 2,
+    "common_name": "Red Ruffed Lemur",
+    "scientific_name": "Varecia rubra",
+    "conservation_status": "Critically Endangered",
+    "palette": {
+      "mood": "Striking",
+      "colors": [
+        { "hex": "#000000", "name": "Black" },
+        { "hex": "#FFFFFF", "name": "White"},
+        { "hex": "#7b2d02", "name": "Orange Red"} 
+      ]
+    }
+  },
+
+
+  {
+    "id": 3,
+    "common_name": "Black and White Ruffed Lemur",
+    "scientific_name": "Varecia variegata",
+    "conservation_status": "Critically Endangered",
+    "palette": {
+      "mood": "Striking",
+      "colors": [
+        { "hex": "#000000", "name": "Black" },
+        { "hex": "#FFFFFF", "name": "White"} 
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 4,
+    "common_name": "Mongoose Lemur",
+    "scientific_name": "Eulemur mongoz",
+    "conservation_status": "Critically Endangered",
+    "palette": {
+      "mood": "Earthy",
+      "colors": [
+        { "hex": "#e5ecf0", "name": "Bluish White" },
+        { "hex": "#545158", "name": "Gray"},
+        { "hex": "#9a7a63", "name": "Reddish Brown" }
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 5,
+    "common_name": "Diademed Sifaka",
+    "scientific_name": "Propithecus diadema",
+    "conservation_status": "Critically Endangered",
+    "palette": {
+      "mood": "Vivid",
+      "colors": [
+        { "hex": "#fcd75b", "name": "Golden Orange" },
+        { "hex": "#f2fbe5", "name": "Creamy White"},
+        { "hex": "#77746f", "name": "Gray"}
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 6,
+    "common_name": "Crowned Sifaka",
+    "scientific_name": "Propithecus coronatus",
+    "conservation_status": "Critically Endangered",
+    "palette": {
+      "mood": "Soft",
+      "colors": [
+        { "hex": "#020107", "name": "Black" },
+        { "hex": "#e9e9e1", "name": "Creamy White"},
+        { "hex": "#9c3a14", "name": "Brownish Red"},
+        { "hex": "#3d3c38", "name": "Gray"}
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 7,
+    "common_name": "Golden Bamboo Lemur",
+    "scientific_name": "Hapalemur aureus",
+    "conservation_status": "Critically Endangered",
+    "palette": {
+      "mood": "Soft",
+      "colors": [
+        { "hex": "#734D21", "name": "Brown Orange" },
+        { "hex": "#433d1b", "name": "Grayish Brown"}
+      ]
+    }
+  },
+
+
+  {
+    "id": 8,
+    "common_name": "Common Brown Lemur",
+    "scientific_name": "Eulemur fulvus",
+    "conservation_status": "Vulnerable",
+    "palette": {
+      "mood": "Earthy",
+      "colors": [
+        { "hex": "#201910", "name": "Dark Brown" },
+        { "hex": "#dfd1cd", "name": "Creamy Light Brown"},
+        { "hex": "#665340", "name": "Grayish Brown"},
+        { "hex": "#010500", "name": "Black"},
+        { "hex": "#7f4e30", "name": "Orangeish Brown"}
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 9,
+    "common_name": "Blue-Eyed Black Lemur",
+    "scientific_name": "Eulemur flavifrons",
+    "conservation_status": "Critically Endangered",
+    "palette": {
+      "mood": "Striking",
+      "colors": [
+        { "hex": "#000000", "name": "Black" },
+        { "hex": "#be6622", "name": "Brownish Orange"}
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 10,
+    "common_name": "Indri",
+    "scientific_name": "Indri indri",
+    "conservation_status": "Critically Endangered",
+    "palette": {
+      "mood": "Bold",
+      "colors": [
+        { "hex": "#000000", "name": "Black" },
+        { "hex": "#FFFFFF", "name": "White"},
+        { "hex": "#F4BB44", "name": "Golden"}
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 11,
+    "common_name": "Aye Aye",
+    "scientific_name": "Daubentonia madagascariensis",
+    "conservation_status": "Endangered",
+    "palette": {
+      "mood": "Earthy",
+      "colors": [
+        { "hex": "#201910", "name": "Dark Brown" },
+        { "hex": "#000000", "name": "Black"},
+        { "hex": "#C19A6B", "name": "Light Brown"}
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 12,
+    "common_name": "Red-Bellied Lemur",
+    "scientific_name": "Eulemur rubriventer",
+    "conservation_status": "Vulnerable",
+    "palette": {
+      "mood": "Bold",
+      "colors": [
+        { "hex": "#FFFFFF", "name": "White" },
+        { "hex": "#7A2800", "name": "Red Brown"}
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 13,
+    "common_name": "Eastern Lesser Bamboo Lemur",
+    "scientific_name": "Hapalemur griseus",
+    "conservation_status": "Vulnerable",
+    "palette": {
+      "mood": "Earthy",
+      "colors": [
+        { "hex": "#ba7b45", "name": "Orange Brown" },
+        { "hex": "#4e3e3d", "name": "Gray Brown"}
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 14,
+    "common_name": "Fork-Marked Lemur",
+    "scientific_name": "Phaner furcifer",
+    "conservation_status": "Endangered",
+    "palette": {
+      "mood": "Striking",
+      "colors": [
+        { "hex": "#FFFFFF", "name": "White" },
+        { "hex": "#000000", "name": "Black"},
+        { "hex": "#44372f", "name": "Gray Brown"}
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 15,
+    "common_name": "Greater Bamboo Lemur",
+    "scientific_name": "Prolemur simus",
+    "conservation_status": "Critically Endangered",
+    "palette": {
+      "mood": "Muted",
+      "colors": [
+        { "hex": "#FFFFFF", "name": "White" },
+        { "hex": "#7d764f", "name": "Olive Gray"}
+      ]
+    }
+  },
+
+
+  {
+    "id": 16,
+    "common_name": "Weasel Sportive Lemur",
+    "scientific_name": "Lepilemur mustelinus",
+    "conservation_status": "Vulnerable",
+    "palette": {
+      "mood": "Earthy",
+      "colors": [
+        { "hex": "#dae0e0", "name": "Soft White" },
+        { "hex": "#6c2b0f", "name": "Reddish Brown"}
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 17,
+    "common_name": "Eastern Woolly Lemur",
+    "scientific_name": "Avahi laniger",
+    "conservation_status": "Vulnerable",
+    "palette": {
+      "mood": "Earthy",
+      "colors": [
+        { "hex": "#6e6765", "name": "Gray" },
+        { "hex": "#929196", "name": "Light Gray"},
+        { "hex": "#FFFFFF", "name": "White"},
+        { "hex": "#8E4820", "name": "Orangeish Brown"}
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 18,
+    "common_name": "Collared Brown Lemur",
+    "scientific_name": "Eulemur collaris",
+    "conservation_status": "Endangered",
+    "palette": {
+      "mood": "Soft",
+      "colors": [
+        { "hex": "#f0e9de", "name": "Cream" },
+        { "hex": "#1f1f23", "name": "Soft Black"},
+        { "hex": "#5c5a59", "name": "Gray"},
+        { "hex": "#645b4c", "name": "Grayish Brown"}
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 19,
+    "common_name": "White-Fronted Brown Lemur",
+    "scientific_name": "Eulemur albifrons",
+    "conservation_status": "Vulnerable",
+    "palette": {
+      "mood": "Soft",
+      "colors": [
+        { "hex": "#fcf7f6", "name": "Creamy White" },
+        { "hex": "#411c13", "name": "Reddish Brown"},
+        { "hex": "#442f1d", "name": "Dark Brown"}
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 20,
+    "common_name": "Gray Mouse Lemur",
+    "scientific_name": "Microcebus murinus",
+    "conservation_status": "Least Concern",
+    "palette": {
+      "mood": "Soft",
+      "colors": [
+         { "hex": "#FFFFFF", "name": "White" },
+         { "hex": "#665242", "name": "Grayish Brown"}
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 21,
+    "common_name": "Fat-Tailed Dwarf Lemur",
+    "scientific_name": "Cheirogaleus medius",
+    "conservation_status": "Vulnerable",
+    "palette": {
+      "mood": "Soft",
+      "colors": [
+        { "hex": "#fefdf1", "name": "Off White" },
+        { "hex": "#271814", "name": "Dark Brown"},
+        { "hex": "#88756c", "name": "Gray Brown"}
+      ]
+    }
+  }
+] 
