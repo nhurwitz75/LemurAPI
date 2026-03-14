@@ -9,3 +9,10 @@ with open("data/lemurs.json") as f:
 @app.get("/lemurs")
 def get_lemurs():
     return lemurs
+
+@app.get("/lemurs/{id}")
+def get_lemur(id: int):
+    for lemur in lemurs:
+        if lemur["id"] == id:
+            return lemur
+    return {"error": "Lemur not found"}, 404
