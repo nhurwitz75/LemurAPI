@@ -1,10 +1,14 @@
 import json
-from fastapi import FastAPI
+from fastapi.responses import RedirectResponse
 
 app = FastAPI()
 
 with open("data/lemurs.json") as f:
     lemurs = json.load(f)
+
+@app.get("/")
+def root():
+    return RedirectResponse(url="/docs")
 
 @app.get("/lemurs")
 def get_lemurs(mood: str = None, conservation_status = None, common_name = None):
