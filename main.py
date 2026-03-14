@@ -10,10 +10,10 @@ with open("data/lemurs.json") as f:
 def get_lemurs(mood: str = None, conservation_status = None):
     result = lemurs
     if mood:
-        return [lemur for lemur in lemurs if lemur["palette"]["mood"].lower() == mood.lower()]
+        result = [lemur for lemur in lemurs if lemur["palette"]["mood"].lower() == mood.lower()]
     if conservation_status:
-        return [lemur for lemur in lemurs if lemur["conservation_status"].lower() == status.lower()]
-    return lemurs 
+        result = [lemur for lemur in lemurs if lemur["conservation_status"].lower() == conservation_status.lower()]
+    return result
 
 @app.get("/lemurs/{id}")
 def get_lemur(id: int):
