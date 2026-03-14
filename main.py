@@ -7,12 +7,14 @@ with open("data/lemurs.json") as f:
     lemurs = json.load(f)
 
 @app.get("/lemurs")
-def get_lemurs(mood: str = None, conservation_status = None):
+def get_lemurs(mood: str = None, conservation_status = None, common_name = None):
     result = lemurs
     if mood:
-        result = [lemur for lemur in lemurs if lemur["palette"]["mood"].lower() == mood.lower()]
+        result = [lemur for lemur in result if lemur["palette"]["mood"].lower() == mood.lower()]
     if conservation_status:
-        result = [lemur for lemur in lemurs if lemur["conservation_status"].lower() == conservation_status.lower()]
+        result = [lemur for lemur in result if lemur["conservation_status"].lower() == conservation_status.lower()]
+    if common_name:
+        result = [lemur for lemur in result if common_name.lower() in lemur["common_name"].lower()] 
     return result
 
 @app.get("/lemurs/{id}")
